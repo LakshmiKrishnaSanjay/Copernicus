@@ -45,7 +45,7 @@ export function Header() {
             scrollPos >= testimonialsSection.getBoundingClientRect().top + scrollPos - headerHeight &&
             scrollPos < testimonialsSection.getBoundingClientRect().bottom + scrollPos)
 
-        setIsDarkBackground(isOverDark)
+        setIsDarkBackground(!!isOverDark)
       }
     }
 
